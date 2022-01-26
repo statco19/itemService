@@ -2,11 +2,13 @@ package hello.itemservice.domain.item;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.*;
 
+@Repository
 class ItemRepositoryTest {
 
     ItemRepository itemRepository = new ItemRepository();
